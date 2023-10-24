@@ -1,3 +1,12 @@
-nom = input("Intrudueixi el seu nom: ")
-cognom = input("Introdueixi el seu cognom: ")
-print("Hola,{} {}".format(nom, cognom))
+#Definició de la funció
+def major(a):
+    if x>18:
+        print("És major d'edat")
+    elif x<18:
+        print("És menor d'edat")
+    else:
+        print("Té 18 anys")  
+
+#Programa principal
+x = int(input("Introdueixi la seva edat: "))
+major(x)
