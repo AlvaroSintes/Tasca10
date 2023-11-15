@@ -1,0 +1,3 @@
+dic = {'nom':'Alvaro','cognom':'Sintes','edat':16,'telèfon':'699607282'}
+for element in dic:
+    print("La clau {} té el valor {}".format(element,dic[element]))

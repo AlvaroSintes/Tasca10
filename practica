@@ -1,8 +1,24 @@
+a = 1
+while a>0:
+    print("""
+    Menú
+    1. Mirar si un numero es senar o parell
+    2. Sortir
+    """)
+    a = int (input("Seleccioni una opció: "))
+    match a:
+        case 1: #Si volem veures si un numero és o no parell
+            x=int(input("Introdueix un número"))
+            if  x % 2 == 0:
+                Print("Es parell")
+            else:
+                Print("No es parell")
+        case 2:
+            a =0
 
-a = [3,2,4,'a',[1,'b'],"Hola"]
-a.remove('a')
-print(a)
-print[len(a)]
+
+
+
 
 
 
