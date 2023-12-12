@@ -1,5 +1,5 @@
 
-x= int(input("Introdueixi el primer numero: "))
+x = int(input("Introdueixi el primer numero: "))
 y= int(input("Introdueixi el segon numero: "))
 
 if x>y:
