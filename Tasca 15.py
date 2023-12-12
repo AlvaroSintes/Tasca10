@@ -1,7 +1,18 @@
-def calcular_longitud(dades):
-    longitud = len(dades)
-    return longitud
+def longitud(a):
+    long = 0
+    for i in a:
+        long += 1
+    return long
 
-a = input("Introdueixi una llista o una cadena de caracters: ")
-longitud_llista = calcular_longitud(a)
-print("Longitud de la llista:", longitud_llista)
+# Ús de la funció
+x = "Cal Dimoni"
+print("La longitud de la cadena donada és: ", longitud(x))
+
+y = [3, 4, 5, "a", "hola"]
+print("La longitud de la llista donada és: ", longitud(y))
+
+z = (3, 5, 7, 9, 10)
+print("La longitud de la tupla donada és: ", longitud(z))
+
+w = {3, 5, 7, 9, 10}
+print("La longitud del conjunt donat és: ", longitud(w))

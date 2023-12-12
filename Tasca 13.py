@@ -1,14 +1,14 @@
+def gran(a, b):
+    if a > b:
+        return a
+    else:
+        return b
 
-x = int(input("Introdueixi el primer numero: "))
-y= int(input("Introdueixi el segon numero: "))
-
-if x>y:
-    print("El numero {} és major que {}".format(x,y))
-elif x<y:
-    print("El numero {} és menor que {}.".format(x,y))
-else:
-    print("Els nombres {} i {} són iguals".format(x,y))
-
+# Ús de la funció
+x = input("Introdueixi el primer número a comparar: ")
+y = input("Introdueixi el segon número a comparar: ")
+c = gran(x, y)
+print("El més gran és: ", c)
 
 
    
